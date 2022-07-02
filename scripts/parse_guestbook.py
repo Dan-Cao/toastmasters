@@ -23,7 +23,7 @@ def transform_line(guest):
 def parse_guestbook(in_file):
     """Usage:
 
-    python .\scripts\parse_guestbook.py fixtures/fake_guestbook.csv > out.csv
+    python .\\scripts\\parse_guestbook.py fixtures/fake_guestbook.csv > out.csv
     """
 
     writer = csv.writer(sys.stdout, lineterminator="\n")

@@ -1,10 +1,8 @@
 import csv
 import sys
-from pathlib import Path
 
 import click
 
-guestbook_file = Path(__file__).parent.parent / "fixtures/fake_guestbook.csv"
 new_header = ["first_name", "last_name", "email", "phone", "registered", "found_us_on"]
 
 

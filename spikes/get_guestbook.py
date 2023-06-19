@@ -30,7 +30,7 @@ data = {
     "csrfToken": csrf_token,
     "email": secrets["toasthost_email"],
     "password": secrets["toasthost_password"],
-    "submit": ["submit"]
+    "submit": "submit"
 }
 response = session.post("https://toasthost.co.uk/signIn", data=data)
 response.raise_for_status()
